@@ -1,13 +1,12 @@
-﻿using MvvmCross.Core.ViewModels;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Murtain.App.Cross
+namespace Murtain.Moment.SDK
 {
-    public class StartApp:MvxApplication
+    public class Class1
     {
     }
 }

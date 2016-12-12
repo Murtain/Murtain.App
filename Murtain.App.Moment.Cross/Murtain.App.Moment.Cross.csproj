@@ -8,8 +8,8 @@
     <ProjectGuid>{53A3AE76-FAD0-48D7-A916-C514B31E1120}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Murtain.App.Cross</RootNamespace>
-    <AssemblyName>Murtain.App.Cross</AssemblyName>
+    <RootNamespace>Murtain.App.Moment.Cross</RootNamespace>
+    <AssemblyName>Murtain.App.Moment.Cross</AssemblyName>
     <DefaultLanguage>zh-CN</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -35,12 +35,22 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
-    <Folder Include="Services\" />
-    <Folder Include="ViewModels\" />
+    <ProjectReference Include="..\Murtain.App.Moment.SDK\Murtain.App.Moment.SDK.csproj">
+      <Project>{DBD1831E-13DF-4A51-8411-074413AEE3DE}</Project>
+      <Name>Murtain.App.Moment.SDK</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constants.cs" />
+    <Compile Include="IApplicationServices.cs" />
+    <Compile Include="Interactions\IPopupMenuInteraction.cs" />
+    <Compile Include="Interactions\IToastInteraction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StartApp.cs" />
+    <Compile Include="Services\ILoginService.cs" />
+    <Compile Include="Services\LoginService.cs" />
+    <Compile Include="StartupApp.cs" />
+    <Compile Include="ViewModels\LoginViewModel.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MvvmCross.Binding, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
