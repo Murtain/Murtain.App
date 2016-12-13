@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                 xmlns:sml="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#ffcecece">
+    <Murtain.App.Moment.Droid.Views.SuperSwipeRefreshLayout
+        android:id="@+id/SuperSwipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.tubb.smrv.SwipeHorizontalMenuLayout
+            android:id="@+id/SwipeMenuViewLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            sml:sml_auto_open_percent="0.2"
+            sml:sml_scroller_duration="250">
 
-</LinearLayout>
+          <include android:id="@id/smContentView" layout="@layout/SwipeMenuViewContent"/>
+          <include android:id="@id/smMenuViewLeft" layout="@layout/SwipeMenuViewLeft"/>
+          <include android:id="@id/smMenuViewRight" layout="@layout/SwipeMenuViewRight"/>
+          
+        </com.tubb.smrv.SwipeHorizontalMenuLayout>
+    </Murtain.App.Moment.Droid.Views.SuperSwipeRefreshLayout>
+</RelativeLayout>

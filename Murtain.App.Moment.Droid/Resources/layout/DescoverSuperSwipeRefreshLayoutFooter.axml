@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/head_container"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+    <TextView
+        android:id="@+id/SuperSwipeRefreshLayoutFooterTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Loading" />
+    <ProgressBar
+        android:id="@+id/SuperSwipeRefreshLayoutProgressBarFooterView"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/SuperSwipeRefreshLayoutFooterTextView"
+        android:layout_toStartOf="@id/SuperSwipeRefreshLayoutFooterTextView" />
+    <ImageView
+        android:id="@+id/SuperSwipeRefreshLayoutImageFooterView"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/SuperSwipeRefreshLayoutFooterTextView"
+        android:layout_toStartOf="@id/SuperSwipeRefreshLayoutFooterTextView"
+        android:contentDescription="@null" />
+</RelativeLayout>

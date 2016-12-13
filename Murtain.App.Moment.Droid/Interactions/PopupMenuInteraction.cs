@@ -9,36 +9,33 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Murtain.App.Moment.Cross.Interactions;
+using MvvmCross.Platform;
+using MvvmCross.Platform.Droid.Platform;
+using Acr.UserDialogs;
 
 namespace Murtain.App.Moment.Droid.Interactions
 {
     public class PopupMenuInteraction : IPopupMenuInteraction
     {
-
-        public void ShowPopupMenu(string param)
+        protected Activity CurrentActivity
         {
-
-            switch (param)
-            {
-                case "POPUP_MENU_LOGIN_FORGOT_PASSWORD":
-                    LoginFogotPasswordLinkPopupMenuShow();
-                    break;
-                default:
-                    break;
-            }
-            throw new NotImplementedException();
+            get { return Mvx.Resolve<IMvxAndroidCurrentTopActivity>().Activity; }
         }
-
-        private void LoginFogotPasswordLinkPopupMenuShow()
+        public void LoginFogotPasswordLinkPopupMenuShow(Action forgotPassword, Action mobileLogin)
         {
-
-            var inflater = LayoutInflater.From(Application.Context.ApplicationContext);
-            var view = inflater.Inflate(Resource.Layout.Login, null);
-
-            var sender = view.FindViewById<TextView>(Resource.Id.LoginForgotPasswordLink);
-            var menu = new PopupMenu(Application.Context.ApplicationContext, sender);
-            menu.Inflate(Resource.Layout.LoginForgotPasswordPopupMenu);
-            menu.Show();
+            Application.SynchronizationContext.Post(ignored => {
+                Mvx.Resolve<IUserDialogs>().ActionSheet(new ActionSheetConfig
+                {
+                    Options = new List<ActionSheetOption>() {
+                        new ActionSheetOption("’“ªÿ√‹¬Î",forgotPassword)
+                    },
+                    Cancel = new ActionSheetOption("»°œ˚"),
+                    Title = "Õ¸º«√‹¬Î",
+                    Message = "Õ¸º«√‹¬Î",
+                    UseBottomSheet = true
+                });
+            }, null);
         }
     }
 }

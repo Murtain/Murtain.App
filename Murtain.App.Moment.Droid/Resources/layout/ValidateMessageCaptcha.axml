@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Text Tips"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:inputType="number"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="请输入验证码"
+            local:MvxBind="Text MessageCaptcha" />
+        <TextView
+            android:text="重新发送"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            local:MvxBind="Click ResendMessageCaptchaCommand" />
+    </LinearLayout>
+    <Button
+        android:text="下一步"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Click ValidateMessageCaptchaCommand;Enabled ButtonEnabled"/>
 </LinearLayout>

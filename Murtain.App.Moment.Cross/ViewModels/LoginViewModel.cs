@@ -72,7 +72,14 @@ namespace Murtain.App.Moment.Cross.ViewModels
         }
         private async void ForgotPassword(string param)
         {
-            popupMenuInteraction.ShowPopupMenu(param);
+            popupMenuInteraction.LoginFogotPasswordLinkPopupMenuShow(
+                () =>{
+                    ShowViewModel<ValidateMobilePhoneViewModel>();
+                },
+                () =>{
+                    ShowViewModel<ValidateMobilePhoneViewModel>();
+                }
+            );
             await Task.FromResult(0);
         }
 

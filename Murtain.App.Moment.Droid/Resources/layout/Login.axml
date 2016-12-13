@@ -48,7 +48,7 @@
             android:layout_weight="1"
             android:paddingLeft="15dp"
             android:id="@+id/LoginForgotPasswordLink"
-            local:MvxBind="Click ForgotPasswordCommand,CommandParameter='POPUP_MENU_LOGIN_FORGOT_PASSWORD'" />
+            local:MvxBind="Click ForgotPasswordCommand" />
         <TextView
             android:text="立即注册"
             android:layout_width="wrap_content"

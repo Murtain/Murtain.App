@@ -14,7 +14,7 @@ using Murtain.App.Moment.Cross.ViewModels;
 
 namespace Murtain.App.Moment.Droid.Views
 {
-    [Activity(Label = "LoginView")]
+    [Activity(Label = "µÇÂ¼")]
     public class LoginView : MvxActivity<LoginViewModel>
     {
         protected override void OnViewModelSet()
@@ -22,17 +22,7 @@ namespace Murtain.App.Moment.Droid.Views
             base.OnViewModelSet();
 
             SetContentView(Resource.Layout.Login);
-
-            RegisterForContextMenu(LayoutInflater.Inflate(Resource.Layout.Login,null));
         }
 
-
-        public override void OnCreateContextMenu(IContextMenu menu, View v, IContextMenuContextMenuInfo menuInfo)
-        {
-            base.OnCreateContextMenu(menu, v, menuInfo);
-
-            menu.Add(0, 1, Menu.None, "ÕÒ»ØÃÜÂë");
-            menu.Add(0, 2, Menu.None, "¶ÌÐÅÑéÖ¤µÇÂ¼");
-        }
     }
 }

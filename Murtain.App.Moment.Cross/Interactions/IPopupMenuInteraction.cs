@@ -8,6 +8,6 @@ namespace Murtain.App.Moment.Cross.Interactions
 {
     public interface IPopupMenuInteraction : IApplicationService
     {
-        void ShowPopupMenu(string action);
+        void LoginFogotPasswordLinkPopupMenuShow(Action forgotPassword, Action mobileLogin);
     }
 }

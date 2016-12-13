@@ -12,10 +12,12 @@ namespace Murtain.App.Moment.Cross.ViewModels
     {
         public ICommand LoginLinkCommand
         {
-            get
-            {
-                return new MvxCommand(() => ShowViewModel<LoginViewModel>());
-            }
+            get { return new MvxCommand(() => ShowViewModel<LoginViewModel>());  }
         }
+
+        public ICommand SuperSwipeRefreshLayoutCommand {
+            get { return new MvxCommand(()=>  ShowViewModel<DescoverViewModel>()); }
+        }
+
     }
 }

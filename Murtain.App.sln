@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Moment.SDK", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Moment.Cross", "Murtain.App.Moment.Cross\Murtain.App.Moment.Cross.csproj", "{53A3AE76-FAD0-48D7-A916-C514B31E1120}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.SwipeMenuList", "Murtain.App.Bindings.SwipeMenuList\Murtain.App.Bindings.SwipeMenuList.csproj", "{65673754-810F-42B5-99B6-9E2C49205226}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{53A3AE76-FAD0-48D7-A916-C514B31E1120}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53A3AE76-FAD0-48D7-A916-C514B31E1120}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53A3AE76-FAD0-48D7-A916-C514B31E1120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65673754-810F-42B5-99B6-9E2C49205226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65673754-810F-42B5-99B6-9E2C49205226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65673754-810F-42B5-99B6-9E2C49205226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65673754-810F-42B5-99B6-9E2C49205226}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
