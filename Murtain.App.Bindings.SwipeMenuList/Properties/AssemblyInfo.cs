@@ -6,11 +6,11 @@ using Android.App;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Murtain.App.Bindings.SwipeMenuList")]
+[assembly: AssemblyTitle("Murtain.App.Bindings.Droid.SwipeMenuList")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("Murtain.App.Bindings.SwipeMenuList")]
+[assembly: AssemblyProduct("Murtain.App.Bindings.Droid.SwipeMenuList")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

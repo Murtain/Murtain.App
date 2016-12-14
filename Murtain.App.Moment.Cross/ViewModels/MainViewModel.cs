@@ -18,6 +18,10 @@ namespace Murtain.App.Moment.Cross.ViewModels
         public ICommand SuperSwipeRefreshLayoutCommand {
             get { return new MvxCommand(()=>  ShowViewModel<DescoverViewModel>()); }
         }
+        public ICommand SwipeMenuListLayoutCommand
+        {
+            get { return new MvxCommand(() => ShowViewModel<SwipeMenuListViewModel>()); }
+        }
 
     }
 }

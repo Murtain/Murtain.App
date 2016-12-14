@@ -26,3 +26,5 @@ namespace Murtain.App.Moment.Droid.Views
 
     }
 }
+
+

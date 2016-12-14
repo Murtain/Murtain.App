@@ -10,7 +10,6 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.Support.V7.Widget;
-using Murtain.App.Moment.Droid.ViewHolders;
 
 namespace Murtain.App.Moment.Droid.Adapters
 {
@@ -35,14 +34,15 @@ namespace Murtain.App.Moment.Droid.Adapters
 
         public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
         {
-            var textViewHolder = (SuperChildViewHolder)holder;
-            textViewHolder.BindView(_mDataSet[position], position);
+            //var textViewHolder = (SuperChildViewHolder)holder;
+            //textViewHolder.BindView(_mDataSet[position], position);
         }
 
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
         {
             var view = LayoutInflater.From(_mContext).Inflate(Resource.Layout.DescoverRecyclerViewItem, parent, false);
             return new SuperChildViewHolder(view);
+
         }
 
         protected void RemoveAll(int position, int itemCount)

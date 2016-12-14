@@ -50,6 +50,7 @@
     <Compile Include="Services\LoginService.cs" />
     <Compile Include="StartupApp.cs" />
     <Compile Include="ViewModels\DescoverViewModel.cs" />
+    <Compile Include="ViewModels\SwipeMenuListViewModel.cs" />
     <Compile Include="ViewModels\ValidateMobilePhoneViewModel.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />

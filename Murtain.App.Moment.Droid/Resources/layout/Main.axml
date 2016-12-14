@@ -18,5 +18,10 @@
         android:text="Super Swipe Refresh Layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        local:MvxBind="Click SuperSwipeRefreshLayoutCommand"/>
+        local:MvxBind="Click SuperSwipeRefreshLayoutCommand" />
+    <Button
+        android:text="SWIPE MENU LIST"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Click SwipeMenuListLayoutCommand"/>
 </LinearLayout>
