@@ -198,41 +198,20 @@ namespace Murtain.App.Bindings.Droid.SVProgressHUD.Demo
 			// aapt resource value: 0x7f0a0001
 			public const int STROKE = 2131361793;
 			
+			// aapt resource value: 0x7f0a0006
+			public const int circleProgressBar = 2131361798;
+			
 			// aapt resource value: 0x7f0a0004
-			public const int btnShow = 2131361796;
-			
-			// aapt resource value: 0x7f0a000a
-			public const int btnShowError = 2131361802;
-			
-			// aapt resource value: 0x7f0a0008
-			public const int btnShowInfo = 2131361800;
+			public const int ivBigLoading = 2131361796;
 			
 			// aapt resource value: 0x7f0a0005
-			public const int btnShowMask = 2131361797;
-			
-			// aapt resource value: 0x7f0a0006
-			public const int btnShowMaskWithText = 2131361798;
-			
-			// aapt resource value: 0x7f0a0007
-			public const int btnShowProgress = 2131361799;
-			
-			// aapt resource value: 0x7f0a0009
-			public const int btnShowSuccess = 2131361801;
-			
-			// aapt resource value: 0x7f0a000d
-			public const int circleProgressBar = 2131361805;
-			
-			// aapt resource value: 0x7f0a000b
-			public const int ivBigLoading = 2131361803;
-			
-			// aapt resource value: 0x7f0a000c
-			public const int ivSmallLoading = 2131361804;
+			public const int ivSmallLoading = 2131361797;
 			
 			// aapt resource value: 0x7f0a0002
 			public const int sv_outmost_container = 2131361794;
 			
-			// aapt resource value: 0x7f0a000e
-			public const int tvMsg = 2131361806;
+			// aapt resource value: 0x7f0a0007
+			public const int tvMsg = 2131361799;
 			
 			static Id()
 			{

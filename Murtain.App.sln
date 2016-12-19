@@ -3,25 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Moment.Droid", "Murtain.App.Moment.Droid\Murtain.App.Moment.Droid.csproj", "{D4862969-6841-43BC-892A-6359793970C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.AlertView", "Murtain.App.Bindings.Droid.AlertView\Murtain.App.Bindings.Droid.AlertView.csproj", "{E61AB116-7F68-4327-BBA2-DAD14ACABA6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Moment.SDK", "Murtain.App.Moment.SDK\Murtain.App.Moment.SDK.csproj", "{DBD1831E-13DF-4A51-8411-074413AEE3DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.AlerView.Demo", "Murtain.App.Bindings.Droid.AlerView.Demo\Murtain.App.Bindings.Droid.AlerView.Demo.csproj", "{CA93AFB2-2918-4CD7-A1EC-76EB36924281}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Moment.Cross", "Murtain.App.Moment.Cross\Murtain.App.Moment.Cross.csproj", "{53A3AE76-FAD0-48D7-A916-C514B31E1120}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.CircleImageView", "Murtain.App.Bindings.Droid.CircleImageView\Murtain.App.Bindings.Droid.CircleImageView.csproj", "{F1E37590-3073-4E21-85C5-3803BF2E1D36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.SwipeMenuList", "Murtain.App.Bindings.SwipeMenuList\Murtain.App.Bindings.Droid.SwipeMenuList.csproj", "{65673754-810F-42B5-99B6-9E2C49205226}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.SuperSwipeRefresh", "Murtain.App.Bindings.Droid.SuperSwipeRefresh\Murtain.App.Bindings.Droid.SuperSwipeRefresh.csproj", "{016A8EAD-09B5-425A-9C87-9B1AD3BBE24A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.CircleImageView.Demo", "Murtain.App.Bindings.Droid.CircleImageView.Demo\Murtain.App.Bindings.Droid.CircleImageView.Demo.csproj", "{C97F3841-9D8A-4927-94F6-316B33136529}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.PickerView", "Murtain.App.Bindings.Droid.PickerView\Murtain.App.Bindings.Droid.PickerView.csproj", "{D6937364-9455-4DB8-B2F9-C35B35CF0216}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.PickerView.Demo", "Murtain.App.Bindings.Droid.PickerView.Demo\Murtain.App.Bindings.Droid.PickerView.Demo.csproj", "{62AAE539-F902-4239-99EB-D680598B8EA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.AlertView", "Murtain.App.Bindings.Droid.AlertView\Murtain.App.Bindings.Droid.AlertView.csproj", "{E61AB116-7F68-4327-BBA2-DAD14ACABA6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Moment.Cross", "Murtain.App.Moment.Cross\Murtain.App.Moment.Cross.csproj", "{53A3AE76-FAD0-48D7-A916-C514B31E1120}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Droid.Bindings", "Droid.Bindings", "{02694E21-6CA8-41F1-8949-9B9AADEDF336}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Moment.Droid", "Murtain.App.Moment.Droid\Murtain.App.Moment.Droid.csproj", "{D4862969-6841-43BC-892A-6359793970C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.AlerView.Demo", "Murtain.App.Bindings.Droid.AlerView.Demo\Murtain.App.Bindings.Droid.AlerView.Demo.csproj", "{CA93AFB2-2918-4CD7-A1EC-76EB36924281}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Moment.SDK", "Murtain.App.Moment.SDK\Murtain.App.Moment.SDK.csproj", "{DBD1831E-13DF-4A51-8411-074413AEE3DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.SuperSwipeRefresh", "Murtain.App.Bindings.Droid.SuperSwipeRefresh\Murtain.App.Bindings.Droid.SuperSwipeRefresh.csproj", "{016A8EAD-09B5-425A-9C87-9B1AD3BBE24A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.SuperSwipeRefresh.Demo", "Murtain.App.Bindings.Droid.SuperSwipeRefresh.Demo\Murtain.App.Bindings.Droid.SuperSwipeRefresh.Demo.csproj", "{069281ED-EE36-493F-A2DD-E57FAD23D22E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.SVProgressHUD", "Murtain.App.Bindings.Droid.SVProgressHUD\Murtain.App.Bindings.Droid.SVProgressHUD.csproj", "{8F28B71D-6B2F-49DC-986D-978771E2B712}"
 EndProject
@@ -31,13 +33,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.SwitchButton.Demo", "Murtain.App.Bindings.Droid.SwitchButton.Demo\Murtain.App.Bindings.Droid.SwitchButton.Demo.csproj", "{41769140-C9C0-49C4-9111-EE0642D6CE7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.CircleImageView", "Murtain.App.Bindings.Droid.CircleImageView\Murtain.App.Bindings.Droid.CircleImageView.csproj", "{F1E37590-3073-4E21-85C5-3803BF2E1D36}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.CircleImageView.Demo", "Murtain.App.Bindings.Droid.CircleImageView.Demo\Murtain.App.Bindings.Droid.CircleImageView.Demo.csproj", "{C97F3841-9D8A-4927-94F6-316B33136529}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.SwipeMenuList.Demo", "Murtain.App.Bindings.Droid.SwipeMenuList.Demo\Murtain.App.Bindings.Droid.SwipeMenuList.Demo.csproj", "{06A68888-E725-4973-9E7E-DC03677D9B0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.SuperSwipeRefresh.Demo", "Murtain.App.Bindings.Droid.SuperSwipeRefresh.Demo\Murtain.App.Bindings.Droid.SuperSwipeRefresh.Demo.csproj", "{069281ED-EE36-493F-A2DD-E57FAD23D22E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.SwipeMenuList", "Murtain.App.Bindings.Droid.SwipeMenuList\Murtain.App.Bindings.Droid.SwipeMenuList.csproj", "{65673754-810F-42B5-99B6-9E2C49205226}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,38 +43,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D4862969-6841-43BC-892A-6359793970C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D4862969-6841-43BC-892A-6359793970C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D4862969-6841-43BC-892A-6359793970C0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{D4862969-6841-43BC-892A-6359793970C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D4862969-6841-43BC-892A-6359793970C0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D4862969-6841-43BC-892A-6359793970C0}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{DBD1831E-13DF-4A51-8411-074413AEE3DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DBD1831E-13DF-4A51-8411-074413AEE3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DBD1831E-13DF-4A51-8411-074413AEE3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DBD1831E-13DF-4A51-8411-074413AEE3DE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{53A3AE76-FAD0-48D7-A916-C514B31E1120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{53A3AE76-FAD0-48D7-A916-C514B31E1120}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{53A3AE76-FAD0-48D7-A916-C514B31E1120}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{53A3AE76-FAD0-48D7-A916-C514B31E1120}.Release|Any CPU.Build.0 = Release|Any CPU
-		{65673754-810F-42B5-99B6-9E2C49205226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{65673754-810F-42B5-99B6-9E2C49205226}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{65673754-810F-42B5-99B6-9E2C49205226}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{65673754-810F-42B5-99B6-9E2C49205226}.Release|Any CPU.Build.0 = Release|Any CPU
-		{016A8EAD-09B5-425A-9C87-9B1AD3BBE24A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{016A8EAD-09B5-425A-9C87-9B1AD3BBE24A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{016A8EAD-09B5-425A-9C87-9B1AD3BBE24A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{016A8EAD-09B5-425A-9C87-9B1AD3BBE24A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D6937364-9455-4DB8-B2F9-C35B35CF0216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D6937364-9455-4DB8-B2F9-C35B35CF0216}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D6937364-9455-4DB8-B2F9-C35B35CF0216}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D6937364-9455-4DB8-B2F9-C35B35CF0216}.Release|Any CPU.Build.0 = Release|Any CPU
-		{62AAE539-F902-4239-99EB-D680598B8EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{62AAE539-F902-4239-99EB-D680598B8EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{62AAE539-F902-4239-99EB-D680598B8EA6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{62AAE539-F902-4239-99EB-D680598B8EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{62AAE539-F902-4239-99EB-D680598B8EA6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{62AAE539-F902-4239-99EB-D680598B8EA6}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{E61AB116-7F68-4327-BBA2-DAD14ACABA6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E61AB116-7F68-4327-BBA2-DAD14ACABA6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E61AB116-7F68-4327-BBA2-DAD14ACABA6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -87,6 +53,50 @@ Global
 		{CA93AFB2-2918-4CD7-A1EC-76EB36924281}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA93AFB2-2918-4CD7-A1EC-76EB36924281}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CA93AFB2-2918-4CD7-A1EC-76EB36924281}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F1E37590-3073-4E21-85C5-3803BF2E1D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E37590-3073-4E21-85C5-3803BF2E1D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E37590-3073-4E21-85C5-3803BF2E1D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E37590-3073-4E21-85C5-3803BF2E1D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C97F3841-9D8A-4927-94F6-316B33136529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C97F3841-9D8A-4927-94F6-316B33136529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C97F3841-9D8A-4927-94F6-316B33136529}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C97F3841-9D8A-4927-94F6-316B33136529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C97F3841-9D8A-4927-94F6-316B33136529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C97F3841-9D8A-4927-94F6-316B33136529}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D6937364-9455-4DB8-B2F9-C35B35CF0216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6937364-9455-4DB8-B2F9-C35B35CF0216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6937364-9455-4DB8-B2F9-C35B35CF0216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6937364-9455-4DB8-B2F9-C35B35CF0216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62AAE539-F902-4239-99EB-D680598B8EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62AAE539-F902-4239-99EB-D680598B8EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62AAE539-F902-4239-99EB-D680598B8EA6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{62AAE539-F902-4239-99EB-D680598B8EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62AAE539-F902-4239-99EB-D680598B8EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62AAE539-F902-4239-99EB-D680598B8EA6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{53A3AE76-FAD0-48D7-A916-C514B31E1120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A3AE76-FAD0-48D7-A916-C514B31E1120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A3AE76-FAD0-48D7-A916-C514B31E1120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A3AE76-FAD0-48D7-A916-C514B31E1120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4862969-6841-43BC-892A-6359793970C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4862969-6841-43BC-892A-6359793970C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4862969-6841-43BC-892A-6359793970C0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D4862969-6841-43BC-892A-6359793970C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4862969-6841-43BC-892A-6359793970C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4862969-6841-43BC-892A-6359793970C0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DBD1831E-13DF-4A51-8411-074413AEE3DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD1831E-13DF-4A51-8411-074413AEE3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD1831E-13DF-4A51-8411-074413AEE3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD1831E-13DF-4A51-8411-074413AEE3DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{016A8EAD-09B5-425A-9C87-9B1AD3BBE24A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{016A8EAD-09B5-425A-9C87-9B1AD3BBE24A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{016A8EAD-09B5-425A-9C87-9B1AD3BBE24A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{016A8EAD-09B5-425A-9C87-9B1AD3BBE24A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{069281ED-EE36-493F-A2DD-E57FAD23D22E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069281ED-EE36-493F-A2DD-E57FAD23D22E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069281ED-EE36-493F-A2DD-E57FAD23D22E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{069281ED-EE36-493F-A2DD-E57FAD23D22E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069281ED-EE36-493F-A2DD-E57FAD23D22E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{069281ED-EE36-493F-A2DD-E57FAD23D22E}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{8F28B71D-6B2F-49DC-986D-978771E2B712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8F28B71D-6B2F-49DC-986D-978771E2B712}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F28B71D-6B2F-49DC-986D-978771E2B712}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -107,46 +117,18 @@ Global
 		{41769140-C9C0-49C4-9111-EE0642D6CE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41769140-C9C0-49C4-9111-EE0642D6CE7D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{41769140-C9C0-49C4-9111-EE0642D6CE7D}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{F1E37590-3073-4E21-85C5-3803BF2E1D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F1E37590-3073-4E21-85C5-3803BF2E1D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F1E37590-3073-4E21-85C5-3803BF2E1D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F1E37590-3073-4E21-85C5-3803BF2E1D36}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C97F3841-9D8A-4927-94F6-316B33136529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C97F3841-9D8A-4927-94F6-316B33136529}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C97F3841-9D8A-4927-94F6-316B33136529}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{C97F3841-9D8A-4927-94F6-316B33136529}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C97F3841-9D8A-4927-94F6-316B33136529}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C97F3841-9D8A-4927-94F6-316B33136529}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{06A68888-E725-4973-9E7E-DC03677D9B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{06A68888-E725-4973-9E7E-DC03677D9B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06A68888-E725-4973-9E7E-DC03677D9B0A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{06A68888-E725-4973-9E7E-DC03677D9B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06A68888-E725-4973-9E7E-DC03677D9B0A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{06A68888-E725-4973-9E7E-DC03677D9B0A}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{069281ED-EE36-493F-A2DD-E57FAD23D22E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{069281ED-EE36-493F-A2DD-E57FAD23D22E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{069281ED-EE36-493F-A2DD-E57FAD23D22E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{069281ED-EE36-493F-A2DD-E57FAD23D22E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{069281ED-EE36-493F-A2DD-E57FAD23D22E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{069281ED-EE36-493F-A2DD-E57FAD23D22E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{65673754-810F-42B5-99B6-9E2C49205226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65673754-810F-42B5-99B6-9E2C49205226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65673754-810F-42B5-99B6-9E2C49205226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65673754-810F-42B5-99B6-9E2C49205226}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{65673754-810F-42B5-99B6-9E2C49205226} = {02694E21-6CA8-41F1-8949-9B9AADEDF336}
-		{016A8EAD-09B5-425A-9C87-9B1AD3BBE24A} = {02694E21-6CA8-41F1-8949-9B9AADEDF336}
-		{D6937364-9455-4DB8-B2F9-C35B35CF0216} = {02694E21-6CA8-41F1-8949-9B9AADEDF336}
-		{62AAE539-F902-4239-99EB-D680598B8EA6} = {02694E21-6CA8-41F1-8949-9B9AADEDF336}
-		{E61AB116-7F68-4327-BBA2-DAD14ACABA6A} = {02694E21-6CA8-41F1-8949-9B9AADEDF336}
-		{CA93AFB2-2918-4CD7-A1EC-76EB36924281} = {02694E21-6CA8-41F1-8949-9B9AADEDF336}
-		{8F28B71D-6B2F-49DC-986D-978771E2B712} = {02694E21-6CA8-41F1-8949-9B9AADEDF336}
-		{DB6394EE-02F5-4C4E-A10F-DE6A88182D7F} = {02694E21-6CA8-41F1-8949-9B9AADEDF336}
-		{985985BD-EAAC-4641-AAA1-CDDDEBCA97CA} = {02694E21-6CA8-41F1-8949-9B9AADEDF336}
-		{41769140-C9C0-49C4-9111-EE0642D6CE7D} = {02694E21-6CA8-41F1-8949-9B9AADEDF336}
-		{F1E37590-3073-4E21-85C5-3803BF2E1D36} = {02694E21-6CA8-41F1-8949-9B9AADEDF336}
-		{C97F3841-9D8A-4927-94F6-316B33136529} = {02694E21-6CA8-41F1-8949-9B9AADEDF336}
-		{06A68888-E725-4973-9E7E-DC03677D9B0A} = {02694E21-6CA8-41F1-8949-9B9AADEDF336}
-		{069281ED-EE36-493F-A2DD-E57FAD23D22E} = {02694E21-6CA8-41F1-8949-9B9AADEDF336}
 	EndGlobalSection
 EndGlobal

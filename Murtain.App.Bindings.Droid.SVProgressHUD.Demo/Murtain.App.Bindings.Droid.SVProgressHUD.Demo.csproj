@@ -42,6 +42,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
+    <Reference Include="Mono.Android.Export" />
     <Reference Include="mscorlib" />
     <Reference Include="Murtain.App.Bindings.Droid.SVProgressHUD">
       <HintPath>..\Murtain.App.Bindings.Droid.SVProgressHUD\bin\Debug\Murtain.App.Bindings.Droid.SVProgressHUD.dll</HintPath>

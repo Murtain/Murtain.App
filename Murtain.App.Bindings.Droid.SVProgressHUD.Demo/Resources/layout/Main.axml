@@ -12,35 +12,35 @@
         android:text="Show Loading"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnShow" />
+        android:onClick="ShowLoading" />
     <Button
         android:text="Show Mask"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnShowMask" />
+        android:onClick="ShowMask" />
     <Button
         android:text="Show Mask With Text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnShowMaskWithText" />
+        android:onClick="ShowMaskWithText" />
     <Button
         android:text="Show Progress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnShowProgress" />
+        android:onClick="ShowProgress" />
     <Button
         android:text="Show Info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnShowInfo" />
+        android:onClick="ShowInfo" />
     <Button
         android:text="Show Success"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnShowSuccess" />
+        android:onClick="ShowSuccess" />
     <Button
         android:text="Show Error"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnShowError" />
+        android:onClick="ShowError" />
 </LinearLayout>

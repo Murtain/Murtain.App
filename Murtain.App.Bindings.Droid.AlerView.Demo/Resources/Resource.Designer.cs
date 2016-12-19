@@ -61,18 +61,6 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 			// aapt resource value: 0x7f040009
 			public const int abc_slide_out_top = 2130968585;
 			
-			// aapt resource value: 0x7f04000a
-			public const int fade_in_center = 2130968586;
-			
-			// aapt resource value: 0x7f04000b
-			public const int fade_out_center = 2130968587;
-			
-			// aapt resource value: 0x7f04000c
-			public const int slide_in_bottom = 2130968588;
-			
-			// aapt resource value: 0x7f04000d
-			public const int slide_out_bottom = 2130968589;
-			
 			static Animation()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -763,32 +751,32 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0a0047
-			public const int abc_background_cache_hint_selector_material_dark = 2131361863;
+			// aapt resource value: 0x7f0a003a
+			public const int abc_background_cache_hint_selector_material_dark = 2131361850;
 			
-			// aapt resource value: 0x7f0a0048
-			public const int abc_background_cache_hint_selector_material_light = 2131361864;
+			// aapt resource value: 0x7f0a003b
+			public const int abc_background_cache_hint_selector_material_light = 2131361851;
 			
-			// aapt resource value: 0x7f0a0049
-			public const int abc_color_highlight_material = 2131361865;
+			// aapt resource value: 0x7f0a003c
+			public const int abc_color_highlight_material = 2131361852;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int abc_input_method_navigation_guard = 2131361792;
 			
-			// aapt resource value: 0x7f0a004a
-			public const int abc_primary_text_disable_only_material_dark = 2131361866;
+			// aapt resource value: 0x7f0a003d
+			public const int abc_primary_text_disable_only_material_dark = 2131361853;
 			
-			// aapt resource value: 0x7f0a004b
-			public const int abc_primary_text_disable_only_material_light = 2131361867;
+			// aapt resource value: 0x7f0a003e
+			public const int abc_primary_text_disable_only_material_light = 2131361854;
 			
-			// aapt resource value: 0x7f0a004c
-			public const int abc_primary_text_material_dark = 2131361868;
+			// aapt resource value: 0x7f0a003f
+			public const int abc_primary_text_material_dark = 2131361855;
 			
-			// aapt resource value: 0x7f0a004d
-			public const int abc_primary_text_material_light = 2131361869;
+			// aapt resource value: 0x7f0a0040
+			public const int abc_primary_text_material_light = 2131361856;
 			
-			// aapt resource value: 0x7f0a004e
-			public const int abc_search_url_text = 2131361870;
+			// aapt resource value: 0x7f0a0041
+			public const int abc_search_url_text = 2131361857;
 			
 			// aapt resource value: 0x7f0a0001
 			public const int abc_search_url_text_normal = 2131361793;
@@ -799,11 +787,11 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 			// aapt resource value: 0x7f0a0003
 			public const int abc_search_url_text_selected = 2131361795;
 			
-			// aapt resource value: 0x7f0a004f
-			public const int abc_secondary_text_material_dark = 2131361871;
+			// aapt resource value: 0x7f0a0042
+			public const int abc_secondary_text_material_dark = 2131361858;
 			
-			// aapt resource value: 0x7f0a0050
-			public const int abc_secondary_text_material_light = 2131361872;
+			// aapt resource value: 0x7f0a0043
+			public const int abc_secondary_text_material_light = 2131361859;
 			
 			// aapt resource value: 0x7f0a0004
 			public const int accent_material_dark = 2131361796;
@@ -822,24 +810,6 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 			
 			// aapt resource value: 0x7f0a0009
 			public const int background_material_light = 2131361801;
-			
-			// aapt resource value: 0x7f0a003a
-			public const int bgColor_actionsheet_cancel_nor = 2131361850;
-			
-			// aapt resource value: 0x7f0a003b
-			public const int bgColor_alert_button_press = 2131361851;
-			
-			// aapt resource value: 0x7f0a003c
-			public const int bgColor_alertview_alert = 2131361852;
-			
-			// aapt resource value: 0x7f0a003d
-			public const int bgColor_alertview_alert_start = 2131361853;
-			
-			// aapt resource value: 0x7f0a003e
-			public const int bgColor_divier = 2131361854;
-			
-			// aapt resource value: 0x7f0a003f
-			public const int bgColor_overlay = 2131361855;
 			
 			// aapt resource value: 0x7f0a000a
 			public const int bright_foreground_disabled_material_dark = 2131361802;
@@ -979,38 +949,17 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 			// aapt resource value: 0x7f0a0037
 			public const int switch_thumb_disabled_material_light = 2131361847;
 			
-			// aapt resource value: 0x7f0a0051
-			public const int switch_thumb_material_dark = 2131361873;
+			// aapt resource value: 0x7f0a0044
+			public const int switch_thumb_material_dark = 2131361860;
 			
-			// aapt resource value: 0x7f0a0052
-			public const int switch_thumb_material_light = 2131361874;
+			// aapt resource value: 0x7f0a0045
+			public const int switch_thumb_material_light = 2131361861;
 			
 			// aapt resource value: 0x7f0a0038
 			public const int switch_thumb_normal_material_dark = 2131361848;
 			
 			// aapt resource value: 0x7f0a0039
 			public const int switch_thumb_normal_material_light = 2131361849;
-			
-			// aapt resource value: 0x7f0a0040
-			public const int textColor_actionsheet_msg = 2131361856;
-			
-			// aapt resource value: 0x7f0a0041
-			public const int textColor_actionsheet_title = 2131361857;
-			
-			// aapt resource value: 0x7f0a0042
-			public const int textColor_alert_button_cancel = 2131361858;
-			
-			// aapt resource value: 0x7f0a0043
-			public const int textColor_alert_button_destructive = 2131361859;
-			
-			// aapt resource value: 0x7f0a0044
-			public const int textColor_alert_button_others = 2131361860;
-			
-			// aapt resource value: 0x7f0a0045
-			public const int textColor_alert_msg = 2131361861;
-			
-			// aapt resource value: 0x7f0a0046
-			public const int textColor_alert_title = 2131361862;
 			
 			static Color()
 			{
@@ -1232,15 +1181,6 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 			// aapt resource value: 0x7f070044
 			public const int disabled_alpha_material_light = 2131165252;
 			
-			// aapt resource value: 0x7f07004b
-			public const int height_actionsheet_title = 2131165259;
-			
-			// aapt resource value: 0x7f07004c
-			public const int height_alert_button = 2131165260;
-			
-			// aapt resource value: 0x7f07004d
-			public const int height_alert_title = 2131165261;
-			
 			// aapt resource value: 0x7f070045
 			public const int highlight_alpha_material_colored = 2131165253;
 			
@@ -1250,18 +1190,6 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 			// aapt resource value: 0x7f070047
 			public const int highlight_alpha_material_light = 2131165255;
 			
-			// aapt resource value: 0x7f07004e
-			public const int marginBottom_actionsheet_msg = 2131165262;
-			
-			// aapt resource value: 0x7f07004f
-			public const int marginBottom_alert_msg = 2131165263;
-			
-			// aapt resource value: 0x7f070050
-			public const int margin_actionsheet_left_right = 2131165264;
-			
-			// aapt resource value: 0x7f070051
-			public const int margin_alert_left_right = 2131165265;
-			
 			// aapt resource value: 0x7f070048
 			public const int notification_large_icon_height = 2131165256;
 			
@@ -1270,27 +1198,6 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 			
 			// aapt resource value: 0x7f07004a
 			public const int notification_subtext_size = 2131165258;
-			
-			// aapt resource value: 0x7f070052
-			public const int radius_alertview = 2131165266;
-			
-			// aapt resource value: 0x7f070053
-			public const int size_divier = 2131165267;
-			
-			// aapt resource value: 0x7f070054
-			public const int textSize_actionsheet_msg = 2131165268;
-			
-			// aapt resource value: 0x7f070055
-			public const int textSize_actionsheet_title = 2131165269;
-			
-			// aapt resource value: 0x7f070056
-			public const int textSize_alert_button = 2131165270;
-			
-			// aapt resource value: 0x7f070057
-			public const int textSize_alert_msg = 2131165271;
-			
-			// aapt resource value: 0x7f070058
-			public const int textSize_alert_title = 2131165272;
 			
 			static Dimension()
 			{
@@ -1531,31 +1438,10 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 			public const int abc_textfield_search_material = 2130837578;
 			
 			// aapt resource value: 0x7f02004b
-			public const int bg_actionsheet_cancel = 2130837579;
+			public const int Icon = 2130837579;
 			
 			// aapt resource value: 0x7f02004c
-			public const int bg_actionsheet_header = 2130837580;
-			
-			// aapt resource value: 0x7f02004d
-			public const int bg_alertbutton_bottom = 2130837581;
-			
-			// aapt resource value: 0x7f02004e
-			public const int bg_alertbutton_left = 2130837582;
-			
-			// aapt resource value: 0x7f02004f
-			public const int bg_alertbutton_none = 2130837583;
-			
-			// aapt resource value: 0x7f020050
-			public const int bg_alertbutton_right = 2130837584;
-			
-			// aapt resource value: 0x7f020051
-			public const int bg_alertview_alert = 2130837585;
-			
-			// aapt resource value: 0x7f020052
-			public const int Icon = 2130837586;
-			
-			// aapt resource value: 0x7f020053
-			public const int notification_template_icon_bg = 2130837587;
+			public const int notification_template_icon_bg = 2130837580;
 			
 			static Drawable()
 			{
@@ -1573,11 +1459,11 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 			// aapt resource value: 0x7f0b0050
 			public const int AlertViewEditText = 2131427408;
 			
-			// aapt resource value: 0x7f0b005c
-			public const int MyButton = 2131427420;
+			// aapt resource value: 0x7f0b0051
+			public const int MyButton = 2131427409;
 			
-			// aapt resource value: 0x7f0b0063
-			public const int action0 = 2131427427;
+			// aapt resource value: 0x7f0b0058
+			public const int action0 = 2131427416;
 			
 			// aapt resource value: 0x7f0b0041
 			public const int action_bar = 2131427393;
@@ -1603,8 +1489,8 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 			// aapt resource value: 0x7f0b0042
 			public const int action_context_bar = 2131427394;
 			
-			// aapt resource value: 0x7f0b0067
-			public const int action_divider = 2131427431;
+			// aapt resource value: 0x7f0b005c
+			public const int action_divider = 2131427420;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int action_menu_divider = 2131427330;
@@ -1624,9 +1510,6 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 			// aapt resource value: 0x7f0b0024
 			public const int activity_chooser_view_content = 2131427364;
 			
-			// aapt resource value: 0x7f0b0057
-			public const int alertButtonListView = 2131427415;
-			
 			// aapt resource value: 0x7f0b0030
 			public const int alertTitle = 2131427376;
 			
@@ -1636,44 +1519,41 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 			// aapt resource value: 0x7f0b0019
 			public const int beginning = 2131427353;
 			
-			// aapt resource value: 0x7f0b005f
-			public const int btnActionSheet = 2131427423;
+			// aapt resource value: 0x7f0b0054
+			public const int btnActionSheet = 2131427412;
 			
-			// aapt resource value: 0x7f0b0061
-			public const int btnActionSheetSelection = 2131427425;
+			// aapt resource value: 0x7f0b0056
+			public const int btnActionSheetSelection = 2131427414;
 			
-			// aapt resource value: 0x7f0b0060
-			public const int btnActionSheetTip = 2131427424;
+			// aapt resource value: 0x7f0b0055
+			public const int btnActionSheetTip = 2131427413;
 			
-			// aapt resource value: 0x7f0b0062
-			public const int btnExtend = 2131427426;
+			// aapt resource value: 0x7f0b0057
+			public const int btnExtend = 2131427415;
 			
-			// aapt resource value: 0x7f0b005e
-			public const int btnMessageTip = 2131427422;
+			// aapt resource value: 0x7f0b0053
+			public const int btnMessageTip = 2131427411;
 			
-			// aapt resource value: 0x7f0b005d
-			public const int btnNarmal = 2131427421;
+			// aapt resource value: 0x7f0b0052
+			public const int btnNarmal = 2131427410;
 			
 			// aapt resource value: 0x7f0b002b
 			public const int buttonPanel = 2131427371;
 			
-			// aapt resource value: 0x7f0b0064
-			public const int cancel_action = 2131427428;
+			// aapt resource value: 0x7f0b0059
+			public const int cancel_action = 2131427417;
 			
 			// aapt resource value: 0x7f0b0039
 			public const int checkbox = 2131427385;
 			
-			// aapt resource value: 0x7f0b006a
-			public const int chronometer = 2131427434;
+			// aapt resource value: 0x7f0b005f
+			public const int chronometer = 2131427423;
 			
 			// aapt resource value: 0x7f0b001d
 			public const int collapseActionView = 2131427357;
 			
 			// aapt resource value: 0x7f0b0031
 			public const int contentPanel = 2131427377;
-			
-			// aapt resource value: 0x7f0b0056
-			public const int content_container = 2131427414;
 			
 			// aapt resource value: 0x7f0b0037
 			public const int custom = 2131427383;
@@ -1696,8 +1576,8 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 			// aapt resource value: 0x7f0b001a
 			public const int end = 2131427354;
 			
-			// aapt resource value: 0x7f0b006f
-			public const int end_padder = 2131427439;
+			// aapt resource value: 0x7f0b0064
+			public const int end_padder = 2131427428;
 			
 			// aapt resource value: 0x7f0b0025
 			public const int expand_activities_button = 2131427365;
@@ -1720,14 +1600,14 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 			// aapt resource value: 0x7f0b0026
 			public const int image = 2131427366;
 			
-			// aapt resource value: 0x7f0b006e
-			public const int info = 2131427438;
+			// aapt resource value: 0x7f0b0063
+			public const int info = 2131427427;
 			
-			// aapt resource value: 0x7f0b0068
-			public const int line1 = 2131427432;
+			// aapt resource value: 0x7f0b005d
+			public const int line1 = 2131427421;
 			
-			// aapt resource value: 0x7f0b006c
-			public const int line3 = 2131427436;
+			// aapt resource value: 0x7f0b0061
+			public const int line3 = 2131427425;
 			
 			// aapt resource value: 0x7f0b0009
 			public const int listMode = 2131427337;
@@ -1736,13 +1616,7 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 			public const int list_item = 2131427368;
 			
 			// aapt resource value: 0x7f0b005b
-			public const int loAlertButtons = 2131427419;
-			
-			// aapt resource value: 0x7f0b0051
-			public const int loAlertHeader = 2131427409;
-			
-			// aapt resource value: 0x7f0b0066
-			public const int media_actions = 2131427430;
+			public const int media_actions = 2131427419;
 			
 			// aapt resource value: 0x7f0b001b
 			public const int middle = 2131427355;
@@ -1758,9 +1632,6 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 			
 			// aapt resource value: 0x7f0b000a
 			public const int normal = 2131427338;
-			
-			// aapt resource value: 0x7f0b0055
-			public const int outmost_container = 2131427413;
 			
 			// aapt resource value: 0x7f0b002d
 			public const int parentPanel = 2131427373;
@@ -1846,8 +1717,8 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 			// aapt resource value: 0x7f0b0018
 			public const int src_over = 2131427352;
 			
-			// aapt resource value: 0x7f0b0065
-			public const int status_bar_latest_event_content = 2131427429;
+			// aapt resource value: 0x7f0b005a
+			public const int status_bar_latest_event_content = 2131427418;
 			
 			// aapt resource value: 0x7f0b004c
 			public const int submit_area = 2131427404;
@@ -1855,17 +1726,17 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 			// aapt resource value: 0x7f0b000b
 			public const int tabMode = 2131427339;
 			
-			// aapt resource value: 0x7f0b006d
-			public const int text = 2131427437;
+			// aapt resource value: 0x7f0b0062
+			public const int text = 2131427426;
 			
-			// aapt resource value: 0x7f0b006b
-			public const int text2 = 2131427435;
+			// aapt resource value: 0x7f0b0060
+			public const int text2 = 2131427424;
 			
 			// aapt resource value: 0x7f0b0034
 			public const int textSpacerNoButtons = 2131427380;
 			
-			// aapt resource value: 0x7f0b0069
-			public const int time = 2131427433;
+			// aapt resource value: 0x7f0b005e
+			public const int time = 2131427422;
 			
 			// aapt resource value: 0x7f0b002a
 			public const int title = 2131427370;
@@ -1876,29 +1747,11 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 			// aapt resource value: 0x7f0b002e
 			public const int topPanel = 2131427374;
 			
-			// aapt resource value: 0x7f0b0054
-			public const int tvAlert = 2131427412;
-			
-			// aapt resource value: 0x7f0b0058
-			public const int tvAlertCancel = 2131427416;
-			
-			// aapt resource value: 0x7f0b0053
-			public const int tvAlertMsg = 2131427411;
-			
-			// aapt resource value: 0x7f0b0052
-			public const int tvAlertTitle = 2131427410;
-			
 			// aapt resource value: 0x7f0b0008
 			public const int up = 2131427336;
 			
 			// aapt resource value: 0x7f0b0012
 			public const int useLogo = 2131427346;
-			
-			// aapt resource value: 0x7f0b0059
-			public const int viewStubHorizontal = 2131427417;
-			
-			// aapt resource value: 0x7f0b005a
-			public const int viewStubVertical = 2131427418;
 			
 			// aapt resource value: 0x7f0b0020
 			public const int withText = 2131427360;
@@ -1927,9 +1780,6 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 			
 			// aapt resource value: 0x7f090000
 			public const int abc_max_action_buttons = 2131296256;
-			
-			// aapt resource value: 0x7f090005
-			public const int animation_default_duration = 2131296261;
 			
 			// aapt resource value: 0x7f090003
 			public const int cancel_button_image_alpha = 2131296259;
@@ -2029,64 +1879,43 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 			public const int AlertViewEditText = 2130903065;
 			
 			// aapt resource value: 0x7f03001a
-			public const int include_alertheader = 2130903066;
+			public const int Main = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int item_alertbutton = 2130903067;
+			public const int notification_media_action = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int layout_alertview = 2130903068;
+			public const int notification_media_cancel_action = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int layout_alertview_actionsheet = 2130903069;
+			public const int notification_template_big_media = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int layout_alertview_alert = 2130903070;
+			public const int notification_template_big_media_narrow = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int layout_alertview_alert_horizontal = 2130903071;
+			public const int notification_template_lines = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int layout_alertview_alert_vertical = 2130903072;
+			public const int notification_template_media = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int Main = 2130903073;
+			public const int notification_template_part_chronometer = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int notification_media_action = 2130903074;
+			public const int notification_template_part_time = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int notification_media_cancel_action = 2130903075;
+			public const int select_dialog_item_material = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int notification_template_big_media = 2130903076;
+			public const int select_dialog_multichoice_material = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int notification_template_big_media_narrow = 2130903077;
+			public const int select_dialog_singlechoice_material = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int notification_template_lines = 2130903078;
-			
-			// aapt resource value: 0x7f030027
-			public const int notification_template_media = 2130903079;
-			
-			// aapt resource value: 0x7f030028
-			public const int notification_template_part_chronometer = 2130903080;
-			
-			// aapt resource value: 0x7f030029
-			public const int notification_template_part_time = 2130903081;
-			
-			// aapt resource value: 0x7f03002a
-			public const int select_dialog_item_material = 2130903082;
-			
-			// aapt resource value: 0x7f03002b
-			public const int select_dialog_multichoice_material = 2130903083;
-			
-			// aapt resource value: 0x7f03002c
-			public const int select_dialog_singlechoice_material = 2130903084;
-			
-			// aapt resource value: 0x7f03002d
-			public const int support_simple_spinner_dropdown_item = 2130903085;
+			public const int support_simple_spinner_dropdown_item = 2130903078;
 			
 			static Layout()
 			{
@@ -2101,11 +1930,11 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050016
-			public const int ApplicationName = 2131034134;
-			
 			// aapt resource value: 0x7f050015
-			public const int Hello = 2131034133;
+			public const int ApplicationName = 2131034133;
+			
+			// aapt resource value: 0x7f050014
+			public const int Hello = 2131034132;
 			
 			// aapt resource value: 0x7f050000
 			public const int abc_action_bar_home_description = 2131034112;
@@ -2164,9 +1993,6 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 			// aapt resource value: 0x7f050012
 			public const int abc_toolbar_collapse_description = 2131034130;
 			
-			// aapt resource value: 0x7f050014
-			public const int app_name = 2131034132;
-			
 			// aapt resource value: 0x7f050013
 			public const int status_bar_notification_info_overflow = 2131034131;
 			
@@ -2182,9 +2008,6 @@ namespace Murtain.App.Bindings.Droid.AlerView.Demo
 		
 		public partial class Style
 		{
-			
-			// aapt resource value: 0x7f08013e
-			public const int AlertActivity_AlertStyle = 2131231038;
 			
 			// aapt resource value: 0x7f080086
 			public const int AlertDialog_AppCompat = 2131230854;
