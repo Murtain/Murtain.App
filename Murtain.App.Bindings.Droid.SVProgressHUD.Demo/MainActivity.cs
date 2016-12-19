@@ -12,7 +12,6 @@ namespace Murtain.App.Bindings.Droid.SVProgressHUD.Demo
     public class MainActivity : Activity
     {
         int count = 1;
-        private  mSVProgressHUD;
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
