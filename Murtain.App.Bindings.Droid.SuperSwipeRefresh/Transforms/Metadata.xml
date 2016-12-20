@@ -6,4 +6,21 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+
+  <!--warning CS0114: 'SuperSwipeRefreshLayout.OnMeasure(int, int)' hides inherited member 'View.OnMeasure(int, int)'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword. -->
+  <!--// Metadata.xml XPath method reference: path="/api/package[@name='com.github.nuptboyzhb.lib']/class[@name='SuperSwipeRefreshLayout']/method[@name='onMeasure' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]"-->
+
+  <attr path="/api/package[@name='com.github.nuptboyzhb.lib']/class[@name='SuperSwipeRefreshLayout']/method[@name='onMeasure' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]" name="visibility">protected</attr>
+
+
+  <!--Warning CS0114: 'SuperSwipeRefreshLayout.HeadViewContainer.OnAnimationEnd()' hides inherited member 'View.OnAnimationEnd()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.-->
+  <!--// Metadata.xml XPath method reference: path="/api/package[@name='com.github.nuptboyzhb.lib']/class[@name='SuperSwipeRefreshLayout.HeadViewContainer']/method[@name='onAnimationEnd' and count(parameter)=0]"-->
+
+  <attr path="/api/package[@name='com.github.nuptboyzhb.lib']/class[@name='SuperSwipeRefreshLayout.HeadViewContainer']/method[@name='onAnimationEnd' and count(parameter)=0]" name="visibility">protected</attr>
+
+  <!--Warning CS0114: 'SuperSwipeRefreshLayout.HeadViewContainer.OnAnimationStart()' hides inherited member 'View.OnAnimationStart()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.-->
+  <!--// Metadata.xml XPath method reference: path="/api/package[@name='com.github.nuptboyzhb.lib']/class[@name='SuperSwipeRefreshLayout.HeadViewContainer']/method[@name='onAnimationStart' and count(parameter)=0]"-->
+
+  <attr path="/api/package[@name='com.github.nuptboyzhb.lib']/class[@name='SuperSwipeRefreshLayout.HeadViewContainer']/method[@name='onAnimationStart' and count(parameter)=0]" name="visibility">protected</attr>
+
 </metadata>
