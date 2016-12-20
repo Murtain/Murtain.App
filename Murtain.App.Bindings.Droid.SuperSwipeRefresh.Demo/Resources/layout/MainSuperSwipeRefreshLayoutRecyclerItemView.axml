@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/SuperSwipeRefreshChildContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/SuperSwipeRefreshChildImage"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/ApplicationName"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:id="@+id/SuperSwipeRefreshChildText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/SuperSwipeRefreshChildImage"
+        android:layout_toRightOf="@id/SuperSwipeRefreshChildImage"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="SUPER SWIPE LAYOUT ITEM"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+</RelativeLayout>

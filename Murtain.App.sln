@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.SVProgressHUD", "Murtain.App.Bindings.Droid.SVProgressHUD\Murtain.App.Bindings.Droid.SVProgressHUD.csproj", "{8F28B71D-6B2F-49DC-986D-978771E2B712}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.SVProgressHUD.Demo", "Murtain.App.Bindings.Droid.SVProgressHUD.Demo\Murtain.App.Bindings.Droid.SVProgressHUD.Demo.csproj", "{DB6394EE-02F5-4C4E-A10F-DE6A88182D7F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.SuperSwipeRefresh", "Murtain.App.Bindings.Droid.SuperSwipeRefresh\Murtain.App.Bindings.Droid.SuperSwipeRefresh.csproj", "{016A8EAD-09B5-425A-9C87-9B1AD3BBE24A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.SuperSwipeRefresh.Demo", "Murtain.App.Bindings.Droid.SuperSwipeRefresh.Demo\Murtain.App.Bindings.Droid.SuperSwipeRefresh.Demo.csproj", "{069281ED-EE36-493F-A2DD-E57FAD23D22E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,20 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8F28B71D-6B2F-49DC-986D-978771E2B712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8F28B71D-6B2F-49DC-986D-978771E2B712}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8F28B71D-6B2F-49DC-986D-978771E2B712}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8F28B71D-6B2F-49DC-986D-978771E2B712}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DB6394EE-02F5-4C4E-A10F-DE6A88182D7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DB6394EE-02F5-4C4E-A10F-DE6A88182D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DB6394EE-02F5-4C4E-A10F-DE6A88182D7F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{DB6394EE-02F5-4C4E-A10F-DE6A88182D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DB6394EE-02F5-4C4E-A10F-DE6A88182D7F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DB6394EE-02F5-4C4E-A10F-DE6A88182D7F}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{016A8EAD-09B5-425A-9C87-9B1AD3BBE24A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{016A8EAD-09B5-425A-9C87-9B1AD3BBE24A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{016A8EAD-09B5-425A-9C87-9B1AD3BBE24A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{016A8EAD-09B5-425A-9C87-9B1AD3BBE24A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{069281ED-EE36-493F-A2DD-E57FAD23D22E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069281ED-EE36-493F-A2DD-E57FAD23D22E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069281ED-EE36-493F-A2DD-E57FAD23D22E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{069281ED-EE36-493F-A2DD-E57FAD23D22E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069281ED-EE36-493F-A2DD-E57FAD23D22E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{069281ED-EE36-493F-A2DD-E57FAD23D22E}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
