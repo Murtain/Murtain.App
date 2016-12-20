@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Murtain.App.Bindings.Droid.SVProgressHUD.Demo.Murtain.App.Bindings.Droid.SVProgressHUD.Demo" android:versionCode="1" android:versionName="1.0">
-  <uses-sdk android:minSdkVersion="16" />
-  <application android:label="Murtain.App.Bindings.Droid.SVProgressHUD.Demo"></application>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Murtain.App.Bindings.Droid.SVProgressHUD.Demo" android:versionCode="1" android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="16" />
+	<application android:label="SVProgressHUD"></application>
 </manifest>

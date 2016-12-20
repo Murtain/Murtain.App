@@ -9,11 +9,13 @@ using Com.Bigkoo.Svprogresshud;
 
 namespace Murtain.App.Bindings.Droid.SVProgressHUD.Demo
 {
-    [Activity(Label = "Murtain.App.Bindings.Droid.SVProgressHUD.Demo", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "SVProgressHUD", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity, Com.Bigkoo.Svprogresshud.Listener.IOnDismissListener
+        , ISVProgressHUDProgressActicity
     {
         int count = 1;
         private int progress;
+        private SVProgressHUDProgressHandler progressHandler;
         private Com.Bigkoo.Svprogresshud.SVProgressHUD SVProgressHUD;
 
         public void OnDismiss(Com.Bigkoo.Svprogresshud.SVProgressHUD p0)
@@ -36,6 +38,8 @@ namespace Murtain.App.Bindings.Droid.SVProgressHUD.Demo
 
             this.SVProgressHUD = new Com.Bigkoo.Svprogresshud.SVProgressHUD(this);
             this.SVProgressHUD.OnDismissListener = this;
+
+            this.progressHandler = new SVProgressHUDProgressHandler(this.SVProgressHUD);
         }
         [Java.Interop.Export("ShowLoading")]
         public void ShowLoading(View view)
@@ -60,7 +64,7 @@ namespace Murtain.App.Bindings.Droid.SVProgressHUD.Demo
             this.SVProgressHUD.ProgressBar.Progress = progress;
             this.SVProgressHUD.ShowWithProgress("加载中...", Com.Bigkoo.Svprogresshud.SVProgressHUD.SVProgressHUDMaskType.Black);
 
-            new SVProgressHUDProgressHandler(this.SVProgressHUD).SendEmptyMessage(0);
+            this.progressHandler.SendEmptyMessage(0);
         }
         [Java.Interop.Export("ShowInfo")]
         public void ShowInfo(View view)
@@ -92,11 +96,16 @@ namespace Murtain.App.Bindings.Droid.SVProgressHUD.Demo
             return base.OnKeyDown(keyCode, e);
         }
 
+        public Com.Bigkoo.Svprogresshud.SVProgressHUD GetSVProgressHUD()
+        {
+            return this.SVProgressHUD;
+        }
+
     }
     public class SVProgressHUDProgressHandler : Handler
     {
         public int Progress { get; set; }
-        private Com.Bigkoo.Svprogresshud.SVProgressHUD SVProgressHUD;
+        public Com.Bigkoo.Svprogresshud.SVProgressHUD SVProgressHUD { get; set; }
 
         public SVProgressHUDProgressHandler(Com.Bigkoo.Svprogresshud.SVProgressHUD SVProgressHUD)
         {
@@ -108,6 +117,8 @@ namespace Murtain.App.Bindings.Droid.SVProgressHUD.Demo
             base.HandleMessage(msg);
 
             this.Progress++;
+
+
             if (this.SVProgressHUD.ProgressBar.Max != this.SVProgressHUD.ProgressBar.Progress)
             {
                 this.SVProgressHUD.ProgressBar.Progress = this.Progress;
@@ -115,10 +126,18 @@ namespace Murtain.App.Bindings.Droid.SVProgressHUD.Demo
             }
             else
             {
-                this.SVProgressHUD.Dismiss();
+                this.Progress = 0;
+                if (this.SVProgressHUD.IsShowing)
+                {
+                    this.SVProgressHUD.Dismiss();
+                }
             }
         }
     }
 
+    public interface ISVProgressHUDProgressActicity
+    {
+        Com.Bigkoo.Svprogresshud.SVProgressHUD GetSVProgressHUD();
+    }
 }
 
