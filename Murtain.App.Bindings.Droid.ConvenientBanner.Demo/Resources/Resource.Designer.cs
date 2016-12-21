@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("Murtain.App.Bindings.Droid.SwipeMenuList.Demo.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("Murtain.App.Bindings.Droid.ConvenientBanner.Demo.Resource", IsApplication=true)]
 
-namespace Murtain.App.Bindings.Droid.SwipeMenuList.Demo
+namespace Murtain.App.Bindings.Droid.ConvenientBanner.Demo
 {
 	
 	
@@ -30,6 +30,9 @@ namespace Murtain.App.Bindings.Droid.SwipeMenuList.Demo
 		
 		public partial class Attribute
 		{
+			
+			// aapt resource value: 0x7f010000
+			public const int canLoop = 2130771968;
 			
 			static Attribute()
 			{
@@ -60,14 +63,17 @@ namespace Murtain.App.Bindings.Droid.SwipeMenuList.Demo
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050001
-			public const int SwipeMenuListItemImageView = 2131034113;
+			// aapt resource value: 0x7f040003
+			public const int ConvenientBanner = 2130968579;
 			
-			// aapt resource value: 0x7f050002
-			public const int SwipeMenuListItemTextView = 2131034114;
+			// aapt resource value: 0x7f040001
+			public const int cbLoopViewPager = 2130968577;
 			
-			// aapt resource value: 0x7f050000
-			public const int SwipeMenuListView = 2131034112;
+			// aapt resource value: 0x7f040000
+			public const int cb_item_tag = 2130968576;
+			
+			// aapt resource value: 0x7f040002
+			public const int loPageTurningPoint = 2130968578;
 			
 			static Id()
 			{
@@ -83,10 +89,10 @@ namespace Murtain.App.Bindings.Droid.SwipeMenuList.Demo
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int include_viewpager = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int MainSwipeMenuListViewItemView = 2130903041;
+			public const int Main = 2130903041;
 			
 			static Layout()
 			{
@@ -101,11 +107,11 @@ namespace Murtain.App.Bindings.Droid.SwipeMenuList.Demo
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int ApplicationName = 2131034113;
 			
-			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int Hello = 2131034112;
 			
 			static String()
 			{
@@ -113,6 +119,25 @@ namespace Murtain.App.Bindings.Droid.SwipeMenuList.Demo
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Styleable
+		{
+			
+			public static int[] ConvenientBanner = new int[] {
+					2130771968};
+			
+			// aapt resource value: 0
+			public const int ConvenientBanner_canLoop = 0;
+			
+			static Styleable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Styleable()
 			{
 			}
 		}

@@ -5,18 +5,18 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{06A68888-E725-4973-9E7E-DC03677D9B0A}</ProjectGuid>
+    <ProjectGuid>{069281ED-EE36-493F-A2DD-E57FAD23D22E}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Murtain.App.Bindings.Droid.SwipeMenuList.Demo</RootNamespace>
-    <AssemblyName>Murtain.App.Bindings.Droid.SwipeMenuList.Demo</AssemblyName>
+    <RootNamespace>Murtain.App.Bindings.Droid.SuperSwipeRefresh.Demo</RootNamespace>
+    <AssemblyName>Murtain.App.Bindings.Droid.SuperSwipeRefresh.Demo</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -51,6 +51,10 @@
       <HintPath>..\packages\Xamarin.Android.Support.v4.23.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.RecyclerView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.RecyclerView.23.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.RecyclerView.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -62,9 +66,9 @@
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
-    <AndroidResource Include="Resources\layout\MainSwipeMenuListViewItemView.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
+    <AndroidResource Include="Resources\layout\MainSuperSwipeRefreshLayoutFooter.axml" />
+    <AndroidResource Include="Resources\layout\MainSuperSwipeRefreshLayoutHeader.axml" />
+    <AndroidResource Include="Resources\layout\MainSuperSwipeRefreshLayoutRecyclerItemView.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml">
@@ -81,10 +85,13 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Murtain.App.Bindings.Droid.SwipeMenuList\Murtain.App.Bindings.Droid.SwipeMenuList.csproj">
-      <Project>{65673754-810f-42b5-99b6-9e2c49205226}</Project>
-      <Name>Murtain.App.Bindings.Droid.SwipeMenuList</Name>
+    <ProjectReference Include="..\Murtain.App.Bindings.Droid.SuperSwipeRefresh\Murtain.App.Bindings.Droid.SuperSwipeRefresh.csproj">
+      <Project>{016a8ead-09b5-425a-9c87-9b1ad3bbe24a}</Project>
+      <Name>Murtain.App.Bindings.Droid.SuperSwipeRefresh</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\SuperSwipeRefreshLayoutDownArrow.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.SuperSwipeRefresh.Demo", "Murtain.App.Bindings.Droid.SuperSwipeRefresh.Demo\Murtain.App.Bindings.Droid.SuperSwipeRefresh.Demo.csproj", "{069281ED-EE36-493F-A2DD-E57FAD23D22E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.SwipeMenuList", "Murtain.App.Bindings.Droid.SwipeMenuList\Murtain.App.Bindings.Droid.SwipeMenuList.csproj", "{65673754-810F-42B5-99B6-9E2C49205226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.SwipeMenuList.Demo", "Murtain.App.Bindings.Droid.SwipeMenuList.Demo\Murtain.App.Bindings.Droid.SwipeMenuList.Demo.csproj", "{06A68888-E725-4973-9E7E-DC03677D9B0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.ConvenientBanner", "Murtain.App.Bindings.Droid.ConvenientBanner\Murtain.App.Bindings.Droid.ConvenientBanner.csproj", "{A74D701D-8BB7-4984-A5DF-81146146BBD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murtain.App.Bindings.Droid.ConvenientBanner.Demo", "Murtain.App.Bindings.Droid.ConvenientBanner.Demo\Murtain.App.Bindings.Droid.ConvenientBanner.Demo.csproj", "{0BC75156-7860-41F4-A031-89BAA4AD49EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +31,26 @@ Global
 		{069281ED-EE36-493F-A2DD-E57FAD23D22E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{069281ED-EE36-493F-A2DD-E57FAD23D22E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{069281ED-EE36-493F-A2DD-E57FAD23D22E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{65673754-810F-42B5-99B6-9E2C49205226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65673754-810F-42B5-99B6-9E2C49205226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65673754-810F-42B5-99B6-9E2C49205226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65673754-810F-42B5-99B6-9E2C49205226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A68888-E725-4973-9E7E-DC03677D9B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A68888-E725-4973-9E7E-DC03677D9B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A68888-E725-4973-9E7E-DC03677D9B0A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{06A68888-E725-4973-9E7E-DC03677D9B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A68888-E725-4973-9E7E-DC03677D9B0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A68888-E725-4973-9E7E-DC03677D9B0A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A74D701D-8BB7-4984-A5DF-81146146BBD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A74D701D-8BB7-4984-A5DF-81146146BBD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A74D701D-8BB7-4984-A5DF-81146146BBD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A74D701D-8BB7-4984-A5DF-81146146BBD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BC75156-7860-41F4-A031-89BAA4AD49EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC75156-7860-41F4-A031-89BAA4AD49EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC75156-7860-41F4-A031-89BAA4AD49EC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0BC75156-7860-41F4-A031-89BAA4AD49EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC75156-7860-41F4-A031-89BAA4AD49EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BC75156-7860-41F4-A031-89BAA4AD49EC}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

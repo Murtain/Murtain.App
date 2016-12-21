@@ -11,6 +11,7 @@ using static Com.Github.Nuptboyzhb.Lib.SuperSwipeRefreshLayout;
 using Android.Support.V7.Widget;
 using System.Collections.Generic;
 using Murtain.App.Bindings.Droid.SuperSwipeRefresh.Demo;
+using Android.Util;
 
 namespace Murtain.App.Bindings.Droid.SuperSwipeRefresh.Demo
 {
@@ -21,6 +22,7 @@ namespace Murtain.App.Bindings.Droid.SuperSwipeRefresh.Demo
     {
         private List<string> data = new List<string>();
 
+        private LinearLayoutManager linearLayoutManager;
         private SuperSwipeRefreshLayout superSwipeRefreshLayout;
 
         private RecyclerView recyclerView;
@@ -33,6 +35,7 @@ namespace Murtain.App.Bindings.Droid.SuperSwipeRefresh.Demo
         private ProgressBar superSwipeLayoutFooterProgressBar;
         private TextView superSwipeLayoutFooterTextView;
         private ImageView superSwipeLayoutFooterImageView;
+
         public void OnLoadMore()
         {
             this.superSwipeLayoutFooterTextView.Text = "加载中...";
@@ -59,9 +62,9 @@ namespace Murtain.App.Bindings.Droid.SuperSwipeRefresh.Demo
 
         public void OnPullEnable(bool enable)
         {
-            this.superSwipeLayoutFooterTextView.Text = enable ? "释放立即加载..." : "上拉加载更多";
-            this.superSwipeLayoutFooterImageView.Visibility = ViewStates.Visible;
-            this.superSwipeLayoutFooterImageView.Rotation = enable ? 0 : 180;
+            this.superSwipeLayoutHeaderTextView.Text = enable ? "释放立即刷新..." : "下拉刷新";
+            this.superSwipeLayoutHeaderImageView.Visibility = ViewStates.Visible;
+            this.superSwipeLayoutHeaderImageView.Rotation = enable ? 180 : 0;
         }
 
         public void OnPushDistance(int distance)
@@ -71,9 +74,9 @@ namespace Murtain.App.Bindings.Droid.SuperSwipeRefresh.Demo
 
         public void OnPushEnable(bool enable)
         {
-            this.superSwipeLayoutHeaderTextView.Text = enable ? "释放立即刷新..." : "下拉刷新";
-            this.superSwipeLayoutHeaderImageView.Visibility = ViewStates.Visible;
-            this.superSwipeLayoutHeaderImageView.Rotation = enable ? 180 : 0;
+            this.superSwipeLayoutFooterTextView.Text = enable ? "释放立即加载..." : "上拉加载更多";
+            this.superSwipeLayoutFooterImageView.Visibility = ViewStates.Visible;
+            this.superSwipeLayoutFooterImageView.Rotation = enable ? 0 : 180;
         }
 
         public void OnRefresh()
@@ -116,19 +119,25 @@ namespace Murtain.App.Bindings.Droid.SuperSwipeRefresh.Demo
             //button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
             this.BuildDatas();
 
+            Log.Error("SuperSwipeRefreshLayoutDemo", string.Join(",", this.data));
+
+            linearLayoutManager = new LinearLayoutManager(this);
+
             superSwipeRefreshLayout = (SuperSwipeRefreshLayout)FindViewById(Resource.Id.SuperSwipeRefreshLayout);
             superSwipeRefreshLayout.SetHeaderView(CreateHeaderView());
             superSwipeRefreshLayout.SetFooterView(CreateFooterView());
             superSwipeRefreshLayout.SetHeaderViewBackgroundColor(Color.BlueViolet);
             superSwipeRefreshLayout.SetOnPullRefreshListener(this);
-
+            superSwipeRefreshLayout.SetOnPushLoadMoreListener(this);
 
             recyclerView = (RecyclerView)FindViewById(Resource.Id.SuperSwipeRefreshLayoutRecycler);
+            recyclerView.SetLayoutManager(linearLayoutManager);
+
             recyclerAdapter = new SuperSwipeRefreshRecyclerAdapter<string>(this, data);
 
             recyclerView.SetAdapter(recyclerAdapter);
 
-            recyclerAdapter.NotifyDataSetChanged();
+            //recyclerAdapter.NotifyDataSetChanged();
         }
 
         private View CreateFooterView()

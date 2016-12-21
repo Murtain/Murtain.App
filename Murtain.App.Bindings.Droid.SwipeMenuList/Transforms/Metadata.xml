@@ -6,4 +6,8 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+  
+  <!--Warning BG8900: Type com.baoyz.swipemenulistview.SwipeMenuListView: FxDG naming violation: Type name 'SwipeMenuListView' matches namespace part 'Swipemenulistview'.-->
+  <!--// Metadata.xml XPath class reference: path="/api/package[@name='com.baoyz.swipemenulistview']/class[@name='SwipeMenuListView']"-->
+  <attr path="/api/package[@name='com.baoyz.swipemenulistview']" name="managedName">Com.Baoyz.SuperSwipeMenuListView</attr>
 </metadata>

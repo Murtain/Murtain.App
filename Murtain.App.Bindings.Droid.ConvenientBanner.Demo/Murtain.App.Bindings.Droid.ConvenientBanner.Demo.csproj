@@ -5,12 +5,12 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{06A68888-E725-4973-9E7E-DC03677D9B0A}</ProjectGuid>
+    <ProjectGuid>{0BC75156-7860-41F4-A031-89BAA4AD49EC}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Murtain.App.Bindings.Droid.SwipeMenuList.Demo</RootNamespace>
-    <AssemblyName>Murtain.App.Bindings.Droid.SwipeMenuList.Demo</AssemblyName>
+    <RootNamespace>Murtain.App.Bindings.Droid.ConvenientBanner.Demo</RootNamespace>
+    <AssemblyName>Murtain.App.Bindings.Droid.ConvenientBanner.Demo</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
@@ -32,6 +32,8 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <AndroidManagedSymbols>true</AndroidManagedSymbols>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
@@ -47,10 +49,6 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
-    <Reference Include="Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.Android.Support.v4.23.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -59,12 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
-    <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
-    <AndroidResource Include="Resources\layout\MainSwipeMenuListViewItemView.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml">
@@ -81,9 +75,9 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Murtain.App.Bindings.Droid.SwipeMenuList\Murtain.App.Bindings.Droid.SwipeMenuList.csproj">
-      <Project>{65673754-810f-42b5-99b6-9e2c49205226}</Project>
-      <Name>Murtain.App.Bindings.Droid.SwipeMenuList</Name>
+    <ProjectReference Include="..\Murtain.App.Bindings.Droid.ConvenientBanner\Murtain.App.Bindings.Droid.ConvenientBanner.csproj">
+      <Project>{a74d701d-8bb7-4984-a5df-81146146bbd3}</Project>
+      <Name>Murtain.App.Bindings.Droid.ConvenientBanner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

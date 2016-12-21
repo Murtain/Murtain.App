@@ -1,0 +1,25 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <!--Warning BG8900: Type com.bigkoo.convenientbanner.ConvenientBanner: FxDG naming violation: Type name 'ConvenientBanner' matches namespace part 'Convenientbanner'.-->
+  <!--// Metadata.xml XPath class reference: path="/api/package[@name='com.bigkoo.convenientbanner']/class[@name='ConvenientBanner']"-->
+  <attr path="/api/package[@name='com.bigkoo.convenientbanner']" name="managedName">Com.Bigkoo.ConvenientBanner</attr>
+  <attr path="/api/package[@name='com.bigkoo.convenientbanner.adapter']" name="managedName">Com.Bigkoo.ConvenientBanner.Adapter</attr>
+  <attr path="/api/package[@name='com.bigkoo.convenientbanner.holder']" name="managedName">Com.Bigkoo.ConvenientBanner.Holder</attr>
+  <attr path="/api/package[@name='com.bigkoo.convenientbanner.listener']" name="managedName">Com.Bigkoo.ConvenientBanner.Listener</attr>
+  <attr path="/api/package[@name='com.bigkoo.convenientbanner.view']" name="managedName">Com.Bigkoo.ConvenientBanner.View</attr>
+
+  <attr path="/api/package[@name='com.bigkoo.convenientbanner']/class[@name='ConvenientBanner']" name="managedName">ConvenientBannerView</attr>
+
+  <!--Warning CS0108: 'CBLoopViewPager.CanScroll' hides inherited member 'ViewPager.CanScroll(View, bool, int, int, int)'. Use the new keyword if hiding was intended.-->
+  <!--// Metadata.xml XPath method reference: path="/api/package[@name='com.bigkoo.convenientbanner.view']/class[@name='CBLoopViewPager']/method[@name='isCanScroll' and count(parameter)=0]"-->
+  
+  <attr path="/api/package[@name='com.bigkoo.convenientbanner.view']/class[@name='CBLoopViewPager']/method[@name='isCanScroll' and count(parameter)=0]" name="visibility">protected</attr>
+
+</metadata>
