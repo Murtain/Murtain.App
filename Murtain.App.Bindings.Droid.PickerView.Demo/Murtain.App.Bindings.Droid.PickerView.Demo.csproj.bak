@@ -5,18 +5,18 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C97F3841-9D8A-4927-94F6-316B33136529}</ProjectGuid>
+    <ProjectGuid>{62AAE539-F902-4239-99EB-D680598B8EA6}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Murtain.App.Bindings.Droid.CircleImageView.Demo</RootNamespace>
-    <AssemblyName>Murtain.App.Bindings.Droid.CircleImageView.Demo</AssemblyName>
+    <RootNamespace>Murtain.App.Bindings.Droid.PickerView.Demo</RootNamespace>
+    <AssemblyName>Murtain.App.Bindings.Droid.PickerView.Demo</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -43,8 +43,9 @@
   <ItemGroup>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
-    <Reference Include="Murtain.App.Bindings.Droid.CircleImageView">
-      <HintPath>..\Murtain.App.Bindings.Droid.CircleImageView\bin\Debug\Murtain.App.Bindings.Droid.CircleImageView.dll</HintPath>
+    <Reference Include="Murtain.App.Bindings.Droid.PickerView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Murtain.App.Bindings.Droid.PickerView\bin\Debug\Murtain.App.Bindings.Droid.PickerView.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -76,16 +77,10 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\hugh.png" />
+    <AndroidResource Include="Resources\layout\Bools.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\values\Colors.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\values\Dimens.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\values\Styles.xml" />
+    <AndroidResource Include="Resources\layout\Dimens.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
