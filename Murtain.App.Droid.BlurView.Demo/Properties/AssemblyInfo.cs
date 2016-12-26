@@ -6,11 +6,11 @@ using Android.App;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Murtain.App.Bindings.Droid.BlurredView")]
+[assembly: AssemblyTitle("Murtain.App.Droid.BlurView.Demo")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("Murtain.App.Bindings.Droid.BlurredView")]
+[assembly: AssemblyProduct("Murtain.App.Droid.BlurView.Demo")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
