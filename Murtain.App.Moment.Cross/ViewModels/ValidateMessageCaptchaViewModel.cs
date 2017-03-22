@@ -11,11 +11,11 @@ namespace Murtain.App.Moment.Cross.ViewModels
 {
     public class ValidateMessageCaptchaViewModel : MvxViewModel
     {
-        private readonly IToastInteraction toastInteraction;
+        private readonly IInteractionToast _interactionToast;
 
-        public ValidateMessageCaptchaViewModel(IToastInteraction toastInteraction)
+        public ValidateMessageCaptchaViewModel(IInteractionToast interactionToast)
         {
-            this.toastInteraction = toastInteraction;
+            this._interactionToast = interactionToast;
         }
 
         public void Init(string mobile)
@@ -60,7 +60,7 @@ namespace Murtain.App.Moment.Cross.ViewModels
         {
             get
             {
-                return new MvxCommand(() => { toastInteraction.Show("短信验证成功"); ShowViewModel<LoginViewModel>(); });
+                return new MvxCommand(() => { _interactionToast.Show("短信验证成功"); ShowViewModel<LoginViewModel>(); });
             }
         }
 
@@ -68,7 +68,7 @@ namespace Murtain.App.Moment.Cross.ViewModels
         {
             get
             {
-                return new MvxCommand(() => { toastInteraction.Show("短信验证码重发成功"); });
+                return new MvxCommand(() => { _interactionToast.Show("短信验证码重发成功"); });
             }
         }
     }

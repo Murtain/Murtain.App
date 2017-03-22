@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace Murtain.App.Moment.SDK.Client
 {
-    public class MomentClient : IMomentClient
+    public class DefaultRestClient : IRestClient
     {
-        public Task Request()
+        public Task RequestAsync()
         {
             try
             {
@@ -22,7 +22,6 @@ namespace Murtain.App.Moment.SDK.Client
 
             return Task.FromResult(0);
         }
-
 
         public Task RequestAsync<T>(T input) where T : class, IRequestModel
         {

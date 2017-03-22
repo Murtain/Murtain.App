@@ -16,11 +16,11 @@ using Android.Graphics;
 using Murtain.App.Moment.Droid.Views;
 using Android.Util;
 using Android.Content.Res;
-using Com.Baoyz.Swipemenulistview;
 using Android.Content.PM;
-using static Com.Baoyz.Swipemenulistview.SwipeMenuListView;
 using static Android.Widget.AdapterView;
 using Java.Lang;
+using static Com.Baoyz.SuperSwipeMenuListView.SwipeMenuListView;
+using Com.Baoyz.SuperSwipeMenuListView;
 
 namespace Murtain.App.Moment.Droid.Views
 {

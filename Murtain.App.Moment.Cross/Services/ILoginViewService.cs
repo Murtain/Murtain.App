@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Murtain.App.Moment.Cross.Services
 {
-    public interface ILoginService : IApplicationService
+    public interface ILoginViewService : IApplicationService
     {
         Task LoginAsync(string username, string password);
     }

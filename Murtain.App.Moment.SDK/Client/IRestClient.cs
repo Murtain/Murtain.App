@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Murtain.App.Moment.SDK.Client
 {
-    public interface IMomentClient
+    public interface IRestClient
     {
-        Task Request();
+        Task RequestAsync();
     }
 }

@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Murtain.App.Moment.Cross.Services
 {
-    public interface IToastInteraction : IApplicationService
+    /// <summary>
+    /// Toast
+    /// </summary>
+    public interface IInteractionToast : IApplicationService
     {
         void Show(string message);
     }

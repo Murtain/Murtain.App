@@ -22,7 +22,7 @@ namespace Murtain.App.Moment.Cross
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            Mvx.RegisterType<IMomentClient, MomentClient>();
+            Mvx.RegisterType<IRestClient, DefaultRestClient>();
 
             Mvx.RegisterSingleton<IMvxAppStart>(new MvxAppStart<MainViewModel>());
         }

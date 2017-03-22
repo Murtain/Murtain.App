@@ -38,8 +38,8 @@
     <Folder Include="Attributes\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Client\IMomentClient.cs" />
-    <Compile Include="Client\MomentClient.cs" />
+    <Compile Include="Client\IRestClient.cs" />
+    <Compile Include="Client\DefaultRestClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Requests\IRequestModel.cs" />
     <Compile Include="Requests\Moments\Moment.cs" />

@@ -16,6 +16,7 @@ using MvvmCross.Platform;
 using Murtain.App.Moment.Cross.Services;
 using Murtain.App.Moment.Droid.Interactions;
 using Murtain.App.Moment.Cross.Interactions;
+using Acr.UserDialogs;
 
 namespace Murtain.App.Moment.Droid
 {
@@ -25,12 +26,14 @@ namespace Murtain.App.Moment.Droid
             : base(applicationContext)
         {
         }
+
+
         protected override IMvxApplication CreateApp()
         {
+            Mvx.RegisterType<IInteractionToast>(() => new InteractionToast());
+            Mvx.RegisterType<IInteractionPopupMenu>(() => new InteractionPopupMenu());
 
-            Mvx.RegisterType<IToastInteraction>(() => new ToastInteraction());
-            Mvx.RegisterType<IPopupMenuInteraction>(() => new PopupMenuInteraction());
-            //Mvx.RegisterSingleton<IUserDialogs>(() => UserDialogs.Instance);
+            Mvx.RegisterSingleton<IUserDialogs>(() => UserDialogs.Instance);
 
             return new StartupApp();
         }

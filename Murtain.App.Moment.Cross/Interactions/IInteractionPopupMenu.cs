@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Murtain.App.Moment.Cross.Interactions
 {
-    public interface IPopupMenuInteraction : IApplicationService
+    public interface IInteractionPopupMenu : IApplicationService
     {
-        void LoginFogotPasswordLinkPopupMenuShow(Action forgotPassword, Action mobileLogin);
+        void LoginFogotPasswordLink(Action register,Action forgotPassword, Action mobileLogin);
     }
 }

@@ -12,12 +12,13 @@ namespace Murtain.App.Moment.Cross.ViewModels
 {
     public class LoginViewModel : MvxViewModel
     {
-        private readonly IPopupMenuInteraction popupMenuInteraction;
-        private ILoginService loginService;
-        public LoginViewModel(ILoginService loginService, IPopupMenuInteraction popupMenuInteraction)
+        private readonly IInteractionPopupMenu _interactionPopupMenu;
+        private readonly ILoginViewService _viewLoginService;
+
+        public LoginViewModel(ILoginViewService viewLoginService, IInteractionPopupMenu interactionPopupMenu)
         {
-            this.loginService = loginService;
-            this.popupMenuInteraction = popupMenuInteraction;
+            _viewLoginService = viewLoginService;
+            _interactionPopupMenu = interactionPopupMenu;
 
             this.Email = "392327013@qq.com";
             this.Password = "123456";
@@ -72,8 +73,10 @@ namespace Murtain.App.Moment.Cross.ViewModels
         }
         private async void ForgotPassword(string param)
         {
-            popupMenuInteraction.LoginFogotPasswordLinkPopupMenuShow(
+            _interactionPopupMenu.LoginFogotPasswordLink(
                 () =>{
+                    ShowViewModel<ValidateMobilePhoneViewModel>();
+                }, () => {
                     ShowViewModel<ValidateMobilePhoneViewModel>();
                 },
                 () =>{
@@ -85,7 +88,7 @@ namespace Murtain.App.Moment.Cross.ViewModels
 
         private async void Login()
         {
-            await loginService.LoginAsync(this.Email, this.Password);
+            await _viewLoginService.LoginAsync(Email, Password);
         }
     }
 }

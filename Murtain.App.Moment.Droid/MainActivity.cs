@@ -13,6 +13,7 @@ using MvvmCross.Droid.Views;
 using Murtain.App.Moment.Cross.ViewModels;
 using MvvmCross.Platform.Droid.Platform;
 using MvvmCross.Platform;
+using Acr.UserDialogs;
 
 namespace Murtain.App.Moment.Droid
 {
@@ -25,7 +26,7 @@ namespace Murtain.App.Moment.Droid
             
             SetContentView(Resource.Layout.Main);
 
-            //UserDialogs.Init(() => Mvx.Resolve<IMvxAndroidCurrentTopActivity>().Activity);
+            UserDialogs.Init(() => Mvx.Resolve<IMvxAndroidCurrentTopActivity>().Activity);
         }
     }
 }
