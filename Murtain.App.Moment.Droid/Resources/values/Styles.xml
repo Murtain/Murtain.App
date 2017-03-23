@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+  <!-- Inherit from the light AppCompat Theme -->
+  <style name="Theme.Normal" parent="@android:style/Theme.Material.Light.NoActionBar">
+    <!-- Customizations go here -->
+  </style>
+
+
+  <style name="button_primary_corners_style">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">@dimen/button_height</item>
+    <item name="android:layout_gravity">center_horizontal</item>
+    <item name="android:background">@drawable/selector_button_primary_corners</item>
+    <item name="android:padding">5.0dip</item>
+    <item name="android:textColor">@color/button_primary_color</item>
+    <item name="android:textSize">@dimen/button_font_large</item>
+  </style>
+  
+  <style name="input_default_style">
+    <item name="android:paddingLeft">10.0dip</item>
+    <item name="android:paddingRight">10.0dip</item>
+  </style>
+  
+</resources>

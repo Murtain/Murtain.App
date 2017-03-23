@@ -12,7 +12,6 @@ using Android.Widget;
 using Murtain.App.Moment.Cross.Interactions;
 using MvvmCross.Platform;
 using MvvmCross.Platform.Droid.Platform;
-using Acr.UserDialogs;
 using Com.Bigkoo.Alertview;
 using static Android.Views.View;
 using Java.Lang;
